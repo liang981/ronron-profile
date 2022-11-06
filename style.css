@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f5e2c0;
+  color: #333;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #58a0a8;
+  font-weight: 600;
+}
+
+.button {
+  display: inline-block;
+  background: #58a0a8;
+  color: #fefefe;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.main-header .content .intro {
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+}
+
+.main-header .content a {
+  font-size: 0.9rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title h2 {
+  margin-right: 8px;
+  margin-bottom: 0;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 10px;
+  border: 4px dotted black;
+  padding: 1rem;
+  background: #eee8dd;
+}
+
+.food,
+.family {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.social {
+  flex: 1 0 100%;
+  text-align: center;
+}
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social ul li {
+  margin-right: 2rem;
+}
+
+.food {
+  margin-right: 2rem;
+}
+
+.floating-icon {
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  transform: rotate(15deg);
+}
